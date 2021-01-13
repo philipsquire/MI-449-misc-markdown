@@ -58,19 +58,19 @@ The text is all there, but the timing needs some fixing. At this point, if the s
 
 Aegisub supports a variety of subtitle formats. In fact, have a list:
 
-* Advanced SubStation Alpha (.ass)
-* EBU Subtitling Format (.stl)
-* Adobe Encore (.encore.txt)
-* MicroDVD (.sub)
-* SubRip (.srt) 
-* Substation Alpha (.ssa)
-* MPEG-4 Streaming Text (.ttxt)
-* Plain-Text (.txt)
-* TranStation (.transtation.txt)
+* Advanced SubStation Alpha (`.ass`)
+* EBU Subtitling Format (`.stl`)
+* Adobe Encore (`.encore.txt`)
+* MicroDVD (`.sub`)
+* SubRip (`.srt`) 
+* Substation Alpha (`.ssa`)
+* MPEG-4 Streaming Text (`.ttxt`)
+* Plain-Text (`.txt`)
+* TranStation (`.transtation.txt`)
 
 You can see above that these subtitle files are mostly stored in some modified form of plain text, which means it is very easy to modify them with Notepad, if you happen to spot a minor error.
 
-By default, Aegisub will save in it's preferred .ASS format (hey, I wasn't the one who came up with it). This is fine for saving the subtitle to either work on later, or to have as a reference. However, to make it compatible with YouTube/Google Drive and most players, it should be in .SRT format, which doesn't contain any styling information. To export in a different format, click on `File`, then select `Export Subtitles...`, then select `Export...`. Under `Save as Type`, you should select `SubRip` for maximum compatibility. In addition, if you name the subtitle file the same as the video (as in `Video.srt` for `Video.mp4`), the player will load the subtitle with the video automatically.
+By default, Aegisub will save in it's preferred `.ass` format (hey, I wasn't the one who came up with it). This is fine for saving the subtitle to either work on later, or to have as a reference. However, to make it compatible with YouTube/Google Drive and most players, it should be in `.srt` format, which doesn't contain any styling information. To export in a different format, click on `File`, then select `Export Subtitles...`, then select `Export...`. Under `Save as Type`, you should select `SubRip` for maximum compatibility. In addition, if you name the subtitle file the same as the video (as in `Video.srt` for `Video.mp4`), the player will load the subtitle with the video automatically.
 
 
 ## Resources and Contact Info
